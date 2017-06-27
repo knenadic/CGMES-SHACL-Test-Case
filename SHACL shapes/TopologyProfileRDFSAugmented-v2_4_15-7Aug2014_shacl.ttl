@@ -1,0 +1,300 @@
+@base <http://iec.ch/TC57/2013/CIM-schema-cim16> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#> .
+@prefix cims: <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#> .
+@prefix entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#> .
+
+			<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersionShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion>;
+				
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.baseUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^iec61970cim16v28_iec61968cim12v08_iec62325cim03v01a$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.baseURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/61970-456/Topology/4$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.date> ;
+				sh:datatype xsd:date ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^2014-08-07$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.differenceModelURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/DifferenceModel/1#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.entsoeUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^entsoe_v2.4.15$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.entsoeURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://entsoe.eu/CIM/Topology/4/1$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.modelDescriptionURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/ModelDescription/1#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.namespaceRDF> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://www.w3.org/1999/02/22-rdf-syntax-ns#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.namespaceUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/CIM-schema-cim16#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologyVersion.shortName> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^TP$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNodeShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.BaseVoltage> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.ConnectivityNodeContainer> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.ReportingGroup> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#ReportingGroup> ;
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.TopologicalNode> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> ;
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObjectShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				sh:maxLength 256 ; 
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				sh:maxLength 16 ; sh:minLength 16 ; 
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				sh:maxLength 32 ; 
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				sh:maxLength 12 ; 
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#TerminalShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.TopologicalNode> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#DCBaseTerminalShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#DCBaseTerminal>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DCBaseTerminal.DCTopologicalNode> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNodeShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCEquipmentContainer> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DCEquipmentContainer> ;
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#DCNodeShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#DCNode>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DCNode.DCTopologicalNode> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> ;
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		

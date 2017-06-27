@@ -1,0 +1,1 @@
+SHACL shapes created from the CIM RDFSs from the ..\CIM rdfs\rdfxml folder.

@@ -1,0 +1,7 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+_:b0 a sh:ValidationReport;
+    sh:conforms "true"^^<http://www.w3.org/2001/XMLSchema#boolean>;
+    sh:shapesGraphWellFormed "true"^^<http://www.w3.org/2001/XMLSchema#boolean>.

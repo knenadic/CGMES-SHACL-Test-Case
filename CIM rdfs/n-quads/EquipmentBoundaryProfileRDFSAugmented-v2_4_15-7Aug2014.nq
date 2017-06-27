@@ -1,0 +1,568 @@
+﻿<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.micro> <http://www.w3.org/2000/01/rdf-schema#label> "micro"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k> <http://www.w3.org/2000/01/rdf-schema#comment> "Kilo 10**3."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://www.w3.org/2000/01/rdf-schema#comment> "Connectivity nodes which belong to this connectivity node container."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.ohm> <http://www.w3.org/2000/01/rdf-schema#label> "ohm"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Neaba72e8d04042f391e0a27f8b1a8911 .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile URI defined by ENTSO-E and used in the Model Exchange header.  It uniquely identifies the Profile and its version. The last two elements in the URI (http://entsoe.eu/CIM/EquipmentBoundary/yy/zzz) indicate major and minor versions where:  - yy - indicates a major version; - zzz - indicates a minor version. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:Ne23f6f9034134c17acc0ed00a3757938 <http://www.w3.org/2000/01/rdf-schema#Literal> "EQ_BD" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://www.w3.org/2000/01/rdf-schema#label> "entsoeURIoperation"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.ohm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://www.w3.org/2000/01/rdf-schema#label> "UnitSymbol"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://www.w3.org/2000/01/rdf-schema#label> "entsoeURIcore"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of the name of the TSO to which the \u201CTo\u201D side of the Boundary point belongs to or it is connected to. The length of the string is 32 characters maximum. The attribute is required for the Boundary Model Authority Set where it is used only for the TopologicalNode in the Boundary Topology profile and ConnectivityNode in the Boundary Equipment profile. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical voltage, can be both AC and DC."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Hz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://www.w3.org/2000/01/rdf-schema#comment> "UML provided by ENTSO-E."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.deg> <http://www.w3.org/2000/01/rdf-schema#label> "deg"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://www.w3.org/2000/01/rdf-schema#label> "fromEndName"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.s> <http://www.w3.org/2000/01/rdf-schema#label> "s"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/2000/01/rdf-schema#label> "mRID"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit multipliers defined for the CIM."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://www.w3.org/2000/01/rdf-schema#label> "ConnectivityNode"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Junction> <http://www.w3.org/2000/01/rdf-schema#comment> "A point where one or more conducting equipments are connected with zero resistance."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N968d52f5702c4826b11ae62a392316f6 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m2> <http://www.w3.org/2000/01/rdf-schema#comment> "Area in square meters."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nf8529ed34cab489686bc662931464893 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_EquipmentBoundaryProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.n> <http://www.w3.org/2000/01/rdf-schema#comment> "Nano 10**-9."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m2> <http://www.w3.org/2000/01/rdf-schema#label> "m2"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of the EIC code (Energy identification Code). The length of the string is 16 characters as defined by the EIC code. References:  <ul> 	<li>Local issuing offices for EIC: <a href=\"https://www.entsoe.eu/publications/edi-library/links-to-eic-websites/\"><font color=\"#0000ff\"><u>https://www.entsoe.eu/publications/edi-library/links-to-eic-websites/</u></font></a> </li> 	<li>EIC description: <a href=\"https://www.entsoe.eu/index.php?id=73&amp;libCat=eic\"><font color=\"#0000ff\"><u>https://www.entsoe.eu/index.php?id=73&amp;libCat=eic</u></font></a> .</li> </ul>"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.T> <http://www.w3.org/2000/01/rdf-schema#label> "T"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m3> <http://www.w3.org/2000/01/rdf-schema#comment> "Volume in cubic meters."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N5b3fc61438e04308bca9e3a63ba9a511 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> "The conducting equipment of the terminal.  Conducting equipment have  terminals that may be connected to other conducting equipment terminals via connectivity nodes or topological nodes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile version details."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Ne23f6f9034134c17acc0ed00a3757938 .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.c> <http://www.w3.org/2000/01/rdf-schema#label> "c"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "ConductingEquipment"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_EquipmentBoundaryProfile> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://www.w3.org/2000/01/rdf-schema#label> "String"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.n> <http://www.w3.org/2000/01/rdf-schema#label> "n"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://www.w3.org/2000/01/rdf-schema#comment> "Conducting equipment have terminals that may be connected to other conducting equipment terminals via connectivity nodes or topological nodes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#label> "EnergySchedulingType"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a root class to provide common identification for all classes needing identification and naming attributes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M> <http://www.w3.org/2000/01/rdf-schema#label> "M"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.rad> <http://www.w3.org/2000/01/rdf-schema#label> "rad"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VArh> <http://www.w3.org/2000/01/rdf-schema#label> "VArh"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#label> "EquipmentContainer"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W> <http://www.w3.org/2000/01/rdf-schema#comment> "Active power in watt."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of a human readable short name with length of the string 12 characters maximum."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.p> <http://www.w3.org/2000/01/rdf-schema#comment> "Pico 10**-12."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A> <http://www.w3.org/2000/01/rdf-schema#label> "A"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.degC> <http://www.w3.org/2000/01/rdf-schema#comment> "Relative temperature in degrees Celsius. In the SI unit system the symbol is \u00BAC. Electric charge is measured in coulomb that has the unit symbol C. To distinguish degree Celsius form coulomb the symbol used in the UML is degC. Reason for not using \u00BAC is the special character \u00BA is difficult to manage in software."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.none> <http://www.w3.org/2000/01/rdf-schema#label> "none"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://www.w3.org/2000/01/rdf-schema#label> "baseURI"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M> <http://www.w3.org/2000/01/rdf-schema#comment> "Mega 10**6."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://www.w3.org/2000/01/rdf-schema#label> "fromEndNameTso"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains equipment beyond a substation belonging to a power transmission line. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N472a811d00ed4355ad78bb07003e5a8d .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A base class for all objects that may contain connectivity nodes or topological nodes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Hz> <http://www.w3.org/2000/01/rdf-schema#label> "Hz"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://www.w3.org/2000/01/rdf-schema#label> "ConnectivityNodes"@en .
+_:N472a811d00ed4355ad78bb07003e5a8d <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/61970-552/ModelDescription/1#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> <http://www.w3.org/2000/01/rdf-schema#label> "EquipmentBoundaryVersion"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Junction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#Connector> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.S> <http://www.w3.org/2000/01/rdf-schema#label> "S"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VArh> <http://www.w3.org/2000/01/rdf-schema#comment> "Reactive energy in volt ampere reactive hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> <http://www.w3.org/2000/01/rdf-schema#comment> "The parts of a power system that are physical devices, electronic or mechanical."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://www.w3.org/2000/01/rdf-schema#comment> "A string consisting of a sequence of characters. The character encoding is UTF-8. The string length is unspecified and unlimited."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m> <http://www.w3.org/2000/01/rdf-schema#label> "m"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://www.w3.org/2000/01/rdf-schema#label> "differenceModelURI"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+_:Nf8529ed34cab489686bc662931464893 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://entsoe.eu/CIM/EquipmentBoundary/3/1" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh> <http://www.w3.org/2000/01/rdf-schema#comment> "Real energy in what hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile URI used in the Model Exchange header and defined in IEC standards.  It uniquely identifies the Profile and its version. It is given for information only and to identify the closest IEC profile to which this CGMES profile is based on."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A power system resource can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://www.w3.org/2000/01/rdf-schema#label> "Terminals"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.H> <http://www.w3.org/2000/01/rdf-schema#comment> "Inductance in henry."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_EquipmentBoundaryProfile> <http://www.w3.org/2000/01/rdf-schema#label> "EquipmentBoundaryProfile"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://www.w3.org/2000/01/rdf-schema#comment> "CIM UML namespace. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of the ISO code of the region to which the \u201CFrom\u201D side of the Boundary point belongs to or it is connected to. The ISO code is two characters country code as defined by ISO 3166 (<a href=\"http://www.iso.org/iso/country_codes\"><font color=\"#0000ff\"><u>http://www.iso.org/iso/country_codes</u></font></a>). The length of the string is 2 characters maximum. The attribute is a required for the Boundary Model Authority Set where this attribute is used only for the TopologicalNode in the Boundary Topology profile and ConnectivityNode in the Boundary Equipment profile."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.H> <http://www.w3.org/2000/01/rdf-schema#label> "H"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of a human readable name with length of the string 32 characters maximum. The attribute covers two cases: <ul> 	<li>if the Boundary point is <b>placed on a tie-line</b> the attribute is used for exchange of the geographical name of the <b>substation</b> to which the \u201CTo\u201D side of the tie-line is connected to.</li> 	<li>if the Boundary point is <b>placed in a substation</b> the attribute is used for exchange of the name of the <b>element</b> (e.g. PowerTransformer, ACLineSegment, Switch, etc) to which the \u201CTo\u201D side of the Boundary point is connected to.</li> </ul> The attribute is required for the Boundary Model Authority Set where it is used only for the TopologicalNode in the Boundary Topology profile and ConnectivityNode in the Boundary Equipment profile."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.degC> <http://www.w3.org/2000/01/rdf-schema#label> "degC"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_EquipmentBoundaryProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "This profile has been built on the basis of the IEC 61970-452 document and adjusted to fit the purpose of the ENTSO-E boundary profile."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://www.w3.org/2000/01/rdf-schema#comment> "Base UML provided by CIM model manager."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://www.w3.org/2000/01/rdf-schema#label> "modelDescriptionURI"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Connector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:N3a879c58671440c981227189878a741d <http://www.w3.org/2000/01/rdf-schema#Literal> "iec61970cim16v28_iec61968cim12v08_iec62325cim03v01a" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://www.w3.org/2000/01/rdf-schema#label> "energyIdentCodeEic"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.d> <http://www.w3.org/2000/01/rdf-schema#comment> "Deci 10**-1."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.s> <http://www.w3.org/2000/01/rdf-schema#comment> "Time in seconds."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://www.w3.org/2000/01/rdf-schema#label> "namespaceRDF"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/2000/01/rdf-schema#comment> "Master resource identifier issued by a model authority. The mRID is globally unique within an exchange context. Global uniqueness is easily achieved by using a UUID,  as specified in RFC 4122, for the mRID.  The use of UUID is strongly recommended. For CIMXML data files in RDF syntax conforming to IEC 61970-552 Edition 1, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://www.w3.org/2000/01/rdf-schema#label> "IdentifiedObject"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.G> <http://www.w3.org/2000/01/rdf-schema#comment> "Giga 10**9."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N70833153bbf845eab0b7b3b340454b0b .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N341b9d000c25492b90306f5c8931565f .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "multiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://www.w3.org/2000/01/rdf-schema#label> "Voltage"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#label> "ConnectivityNodeContainer"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> <http://www.w3.org/2000/01/rdf-schema#label> "Core"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none> <http://www.w3.org/2000/01/rdf-schema#label> "none"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://www.w3.org/2000/01/rdf-schema#comment> "Energy Source of a particular Energy Scheduling Type"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://www.w3.org/2000/01/rdf-schema#label> "toEndNameTso"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VA> <http://www.w3.org/2000/01/rdf-schema#label> "VA"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Difference model URI defined by IEC 61970-552. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Model Description URI defined by IEC 61970-552. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF namespace. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none> <http://www.w3.org/2000/01/rdf-schema#comment> "No multiplier or equivalently multiply by 1."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile creation date Form is YYYY-MM-DD for example for January 5, 2009 it is 2009-01-05."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:N341b9d000c25492b90306f5c8931565f <http://www.w3.org/2000/01/rdf-schema#Literal> "entsoe_v2.4.15" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr> <http://www.w3.org/2000/01/rdf-schema#label> "VAr"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#label> "ConnectivityNodeContainer"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.deg> <http://www.w3.org/2000/01/rdf-schema#comment> "Plane angle in degrees."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.c> <http://www.w3.org/2000/01/rdf-schema#comment> "Centi 10**-2."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+_:Neaba72e8d04042f391e0a27f8b1a8911 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/2013/CIM-schema-cim16#" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://www.w3.org/2000/01/rdf-schema#label> "entsoeUML"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://www.w3.org/2000/01/rdf-schema#comment> "The sub-geographical region of the line."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "Container of this connectivity node."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of the ISO code of the region to which the \u201CTo\u201D side of the Boundary point belongs to or it is connected to. The ISO code is two characters country code as defined by ISO 3166 (<a href=\"http://www.iso.org/iso/country_codes\"><font color=\"#0000ff\"><u>http://www.iso.org/iso/country_codes</u></font></a>). The length of the string is 2 characters maximum. The attribute is a required for the Boundary Model Authority Set where this attribute is used only for the TopologicalNode in the Boundary Topology profile and ConnectivityNode in the Boundary Equipment profile."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "nominalVoltage"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#label> "GeographicalRegion"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://www.w3.org/2000/01/rdf-schema#label> "date"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Operation" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#label> "EquipmentContainer"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.rad> <http://www.w3.org/2000/01/rdf-schema#comment> "Plane angle in radians."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.m> <http://www.w3.org/2000/01/rdf-schema#comment> "Milli 10**-3."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#ofAggregate> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#label> "SubGeographicalRegion"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V> <http://www.w3.org/2000/01/rdf-schema#label> "V"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://www.w3.org/2000/01/rdf-schema#label> "boundaryPoint"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#Line> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VArh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAh> <http://www.w3.org/2000/01/rdf-schema#label> "VAh"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.N> <http://www.w3.org/2000/01/rdf-schema#comment> "Force in newton."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://www.w3.org/2000/01/rdf-schema#label> "baseUML"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.N> <http://www.w3.org/2000/01/rdf-schema#label> "N"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Connector> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W> <http://www.w3.org/2000/01/rdf-schema#label> "W"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Connectivity nodes are points where terminals of AC conducting equipment are connected together with zero impedance."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://www.w3.org/2000/01/rdf-schema#label> "namespaceUML"@en .
+_:N19c835d5f2eb40fea480e55f8a2d48aa <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/2013/61970-452/EquipmentBoundary/3" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines a system base voltage which is referenced. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:N120497403e0e494884ea17f7b5989b8e <http://www.w3.org/2000/01/rdf-schema#Literal> "http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.g> <http://www.w3.org/2000/01/rdf-schema#comment> "Mass in gram."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://www.w3.org/2000/01/rdf-schema#label> "shortName"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> "The parts of the AC power system that are designed to carry current or that are conductively connected through terminals."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.F> <http://www.w3.org/2000/01/rdf-schema#comment> "Capacitance in farad."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.G> <http://www.w3.org/2000/01/rdf-schema#label> "G"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://www.w3.org/2000/01/rdf-schema#label> "Equipments"@en .
+_:N5b3fc61438e04308bca9e3a63ba9a511 <http://www.w3.org/2000/01/rdf-schema#Literal> "2014-08-07" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://www.w3.org/2000/01/rdf-schema#comment> "The lines within the sub-geographical region."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.ohm> <http://www.w3.org/2000/01/rdf-schema#comment> "Resistance in ohm."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "The short name of the profile used in profile documentation."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://www.w3.org/2000/01/rdf-schema#comment> "The geographical region to which this sub-geographical region is within."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Pa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://www.w3.org/2000/01/rdf-schema#comment> "All sub-geograhpical regions within this geographical region."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#enumeration> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://www.w3.org/2000/01/rdf-schema#label> "Lines"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N120497403e0e494884ea17f7b5989b8e .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://www.w3.org/2000/01/rdf-schema#label> "Boolean"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> <http://www.w3.org/2000/01/rdf-schema#label> "PowerSystemResource"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> <http://www.w3.org/2000/01/rdf-schema#label> "EnergySource"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> <http://www.w3.org/2000/01/rdf-schema#label> "Equipment"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of the name of the TSO to which the \u201CFrom\u201D side of the Boundary point belongs to or it is connected to. The length of the string is 32 characters maximum. The attribute is required for the Boundary Model Authority Set where it is used only for the TopologicalNode in the Boundary Topology profile and ConnectivityNode in the Boundary Equipment profile. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Date> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh> <http://www.w3.org/2000/01/rdf-schema#label> "Wh"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+_:N968d52f5702c4826b11ae62a392316f6 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/61970-552/DifferenceModel/1#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.p> <http://www.w3.org/2000/01/rdf-schema#label> "p"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://www.w3.org/2000/01/rdf-schema#label> "Float"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name is any free human readable and possibly non unique text naming the object."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.min> <http://www.w3.org/2000/01/rdf-schema#comment> "Time in minutes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N3a879c58671440c981227189878a741d .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V> <http://www.w3.org/2000/01/rdf-schema#comment> "Voltage in volt."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.g> <http://www.w3.org/2000/01/rdf-schema#label> "g"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/2000/01/rdf-schema#comment> "An AC electrical connection point to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.d> <http://www.w3.org/2000/01/rdf-schema#label> "d"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date as &quot;yyyy-mm-dd&quot;, which conforms with ISO 8601. UTC time zone is specified as &quot;yyyy-mm-ddZ&quot;. A local timezone relative UTC is specified as &quot;yyyy-mm-dd(+/-)hh:mm&quot;."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to define the type of generation for scheduling purposes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.deg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://www.w3.org/2000/01/rdf-schema#label> "EnergySource"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAh> <http://www.w3.org/2000/01/rdf-schema#comment> "Apparent energy in volt ampere hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Hz> <http://www.w3.org/2000/01/rdf-schema#comment> "Frequency in hertz."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://www.w3.org/2000/01/rdf-schema#comment> "Contained equipment."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://www.w3.org/2000/01/rdf-schema#label> "UnitMultiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VA> <http://www.w3.org/2000/01/rdf-schema#comment> "Apparent power in volt ampere."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.S> <http://www.w3.org/2000/01/rdf-schema#comment> "Conductance in siemens."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.h> <http://www.w3.org/2000/01/rdf-schema#comment> "Time in hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.degC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.F> <http://www.w3.org/2000/01/rdf-schema#label> "F"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://www.w3.org/2000/01/rdf-schema#comment> "The description is a free human readable text describing or naming the object. It may be non unique and may not correlate to a naming hierarchy."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.Terminals> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+_:Nb8734dd2aef8464fbffa2b7f35f17051 <http://www.w3.org/2000/01/rdf-schema#Literal> "k" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.rad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> <http://www.w3.org/2000/01/rdf-schema#label> "toEndName"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "Container of this equipment."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> <http://www.w3.org/2000/01/rdf-schema#label> "Wires"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Junction> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#PowerSystemResource> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.none> <http://www.w3.org/2000/01/rdf-schema#comment> "Dimension less quantity, e.g. count, per unit, etc."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:N70833153bbf845eab0b7b3b340454b0b <http://www.w3.org/2000/01/rdf-schema#Literal> "http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr> <http://www.w3.org/2000/01/rdf-schema#comment> "Reactive power in volt ampere reactive."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://www.w3.org/2000/01/rdf-schema#label> "description"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N2e400731ea2c4bd5a69ba1a33471e551 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m> <http://www.w3.org/2000/01/rdf-schema#comment> "Length in meter."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A> <http://www.w3.org/2000/01/rdf-schema#comment> "Current in ampere."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The units defined for usage in the CIM."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "A geographical region of a power system network model."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://www.w3.org/2000/01/rdf-schema#comment> "The power system resource's base voltage."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://www.w3.org/2000/01/rdf-schema#comment> "A floating point number. The range is unspecified and not limited."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line> <http://www.w3.org/2000/01/rdf-schema#label> "Line"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "A type with the value space &quot;true&quot; and &quot;false&quot;."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.micro> <http://www.w3.org/2000/01/rdf-schema#comment> "Micro 10**-6."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/2000/01/rdf-schema#label> "Terminal"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer.Equipments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N19c835d5f2eb40fea480e55f8a2d48aa .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Junction> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> <http://www.w3.org/2000/01/rdf-schema#label> "shortName"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#label> "EnergySchedulingType"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.micro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.m> <http://www.w3.org/2000/01/rdf-schema#label> "m"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "BaseVoltage"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> <http://www.w3.org/2000/01/rdf-schema#label> "fromEndIsoCode"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute is used for an exchange of a human readable name with length of the string 32 characters maximum. The attribute covers two cases: <ul> 	<li>if the Boundary point is <b>placed on a tie-line</b> the attribute is used for exchange of the geographical name of the <b>substation</b> to which the \u201CFrom\u201D side of the tie-line is connected to.</li> 	<li>if the Boundary point is <b>placed in a substation</b> the attribute is used for exchange of the name of the <b>element</b> (e.g. PowerTransformer, ACLineSegment, Switch, etc) to which the \u201CFrom\u201D side of the Boundary point is connected to.</li> </ul> The attribute is required for the Boundary Model Authority Set where it is used only for the TopologicalNode in the Boundary Topology profile and ConnectivityNode in the Boundary Equipment profile."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#range> <http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://www.w3.org/2000/01/rdf-schema#label> "Regions"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.T> <http://www.w3.org/2000/01/rdf-schema#comment> "Tera 10**12."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Junction> <http://www.w3.org/2000/01/rdf-schema#label> "Junction"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer.ConnectivityNodes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Connector> <http://www.w3.org/2000/01/rdf-schema#comment> "A conductor, or group of conductors, with negligible impedance, that serve to connect other conducting equipment within a single substation and are modelled with a single logical terminal."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic equivalent for an energy supplier on a transmission or distribution voltage level."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:N2e400731ea2c4bd5a69ba1a33471e551 <http://www.w3.org/2000/01/rdf-schema#Literal> "V" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> <http://www.w3.org/2000/01/rdf-schema#comment> "Energy Scheduling Type of an Energy Source"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Junction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nb8734dd2aef8464fbffa2b7f35f17051 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#enumeration> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.none> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A modeling construct to provide a root class for containing equipment. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Pa> <http://www.w3.org/2000/01/rdf-schema#label> "Pa"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Line> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "ConductingEquipment"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType.EnergySource> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..n> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.min> <http://www.w3.org/2000/01/rdf-schema#label> "min"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies if a node is a BoundaryPoint. If boundaryPoint=true the ConnectivityNode or the TopologicalNode represents a BoundaryPoint. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.J> <http://www.w3.org/2000/01/rdf-schema#label> "J"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Lines> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile URI defined by ENTSO-E and used in the Model Exchange header.  It uniquely identifies the Profile and its version. The last two elements in the URI (http://entsoe.eu/CIM/EquipmentBoundaryOperation/yy/zzz) indicate major and minor versions where:  - yy - indicates a major version; - zzz - indicates a minor version. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.h> <http://www.w3.org/2000/01/rdf-schema#label> "h"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.J> <http://www.w3.org/2000/01/rdf-schema#comment> "Energy in joule."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Connector> <http://www.w3.org/2000/01/rdf-schema#label> "Connector"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "A subset of a geographical region of a power system network model."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m3> <http://www.w3.org/2000/01/rdf-schema#label> "m3"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Pa> <http://www.w3.org/2000/01/rdf-schema#comment> "Pressure in pascal (n/m2)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion.Regions> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> <http://www.w3.org/2000/01/rdf-schema#label> "toEndIsoCode"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Connector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k> <http://www.w3.org/2000/01/rdf-schema#label> "k"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+

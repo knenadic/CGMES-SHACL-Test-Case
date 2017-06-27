@@ -1,0 +1,42 @@
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.modelingAuthoritySet> "http://entsoe.eu/Boundary/CGMES" .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.created> "2014-10-22T09:01:25.830" .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.profile> "http://entsoe.eu/CIM/TopologyBoundary/3/1" .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.version> "4" .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.example.com/ModelDescription#FullModel> .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.scenarioTime> "2030-01-02T09:00:00" .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.DependentOn> <http://www.example.com/2399cbd0-9a39-11e0-aa80-0800200c9a66> .
+<http://www.example.com/2399cbd1-9a39-11e0-aa80-0800200c9a66> <http://www.example.com/ModelDescription#Model.description> "CGMES Conformity Assessment: Mini Grid Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.ConnectivityNodeContainer> <http://www.example.com/model#_41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.boundaryPoint> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndIsoCode> "Z1" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndName> "Z1Teg" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.boundaryPoint> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndNameTso> "Z1Energine" .
+<http://www.example.com/model#_183d126d-2522-4ff2-a8cd-c5016cf09c1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://www.example.com/model#_183d126d-2522-4ff2-a8cd-c5016cf09c1b> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.TopologicalNode> <http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10T-Z1-Z2-XQ0002" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "XQ1" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> "OHL_and_CAB 110 kV" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndNameTso> "Z2DE" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndName> "Z2arp" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> "XQ1_EQIN" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndNameTso> "Z1TI" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndNameTso> "Z2Sven" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10T-Z1-Z2-XQ0001" .
+<http://www.example.com/model#_49831d24-33e9-4233-8424-3f88186a924e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode> .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndIsoCode> "Z2" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> "XQ2_EQIN" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.BaseVoltage> <http://www.example.com/model#_fe97b80b-3e0e-4a2c-964b-bc29b0dda632> .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> "OHL 380 kV" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndName> "Z1Wes" .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.ConnectivityNodeContainer> <http://www.example.com/model#_c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> .
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "XQ2" .
+
+<http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndIsoCode> "Z2" .
+<http://www.example.com/model#_49831d24-33e9-4233-8424-3f88186a924e> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.TopologicalNode> <http://www.example.com/model#_8372a156-7579-4ea5-2222-24caf0d24603> .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndIsoCode> "Z1" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndName> "Z2Brs" .
+<http://www.example.com/model#_8372a156-7579-4ea5-1111-24caf0d24603> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.BaseVoltage> <http://www.example.com/model#_e9277658-07e5-4e84-aef8-a891d14e7c54> .
+

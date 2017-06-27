@@ -1,0 +1,770 @@
+﻿<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N19ae42eccb7142a98b96fc74bad8f989 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator> <http://www.w3.org/2000/01/rdf-schema#label> "ShuntCompensator"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.c> <http://www.w3.org/2000/01/rdf-schema#comment> "Centi 10**-2."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://www.w3.org/2000/01/rdf-schema#label> "delta"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.p> <http://www.w3.org/2000/01/rdf-schema#comment> "Pico 10**-12."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a root class to provide common identification for all classes needing identification and naming attributes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh> <http://www.w3.org/2000/01/rdf-schema#label> "Wh"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit with valves for three phases, together with unit control equipment, essential protective and switching devices, DC storage capacitors, phase reactors and auxiliaries, if any, used for conversion."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.none> <http://www.w3.org/2000/01/rdf-schema#comment> "Dimension less quantity, e.g. count, per unit, etc."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+_:N9a08ab86824149608ef7bb40bda28e3f <http://www.w3.org/2000/01/rdf-schema#Literal> "entsoe_v2.4.15" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> <http://www.w3.org/2000/01/rdf-schema#label> "SvShuntCompensatorSections"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_DC> <http://www.w3.org/2000/01/rdf-schema#label> "DC"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.F> <http://www.w3.org/2000/01/rdf-schema#comment> "Capacitance in farad."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://www.w3.org/2000/01/rdf-schema#comment> "DC side of the current source converter (CSC)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.H> <http://www.w3.org/2000/01/rdf-schema#comment> "Inductance in henry."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A> <http://www.w3.org/2000/01/rdf-schema#comment> "Current in ampere."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V> <http://www.w3.org/2000/01/rdf-schema#label> "V"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> <http://www.w3.org/2000/01/rdf-schema#label> "Core"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.h> <http://www.w3.org/2000/01/rdf-schema#comment> "Time in hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://www.w3.org/2000/01/rdf-schema#comment> "The voltage angle of the topological node complex voltage with respect to system reference."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://www.w3.org/2000/01/rdf-schema#label> "Terminal"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://www.w3.org/2000/01/rdf-schema#comment> "A string consisting of a sequence of characters. The character encoding is UTF-8. The string length is unspecified and unlimited."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Topology> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none> <http://www.w3.org/2000/01/rdf-schema#comment> "No multiplier or equivalently multiply by 1."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "SvVoltage"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://www.w3.org/2000/01/rdf-schema#label> "uf"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V> <http://www.w3.org/2000/01/rdf-schema#comment> "Voltage in volt."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Operation" .
+_:Nf40046d58ef44ca299cbbbb17f741a32 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://entsoe.eu/CIM/StateVariables/4/1" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://www.w3.org/2000/01/rdf-schema#label> "modelDescriptionURI"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF namespace.  "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.c> <http://www.w3.org/2000/01/rdf-schema#label> "c"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.g> <http://www.w3.org/2000/01/rdf-schema#label> "g"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date as &quot;yyyy-mm-dd&quot;, which conforms with ISO 8601. UTC time zone is specified as &quot;yyyy-mm-ddZ&quot;. A local timezone relative UTC is specified as &quot;yyyy-mm-dd(+/-)hh:mm&quot;."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#label> "TopologicalNode"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Description" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://www.w3.org/2000/01/rdf-schema#comment> "A floating point number. The range is unspecified and not limited."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/2000/01/rdf-schema#label> "Terminal"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://www.w3.org/2000/01/rdf-schema#label> "entsoeURI"@en .
+_:N19ae42eccb7142a98b96fc74bad8f989 <http://www.w3.org/2000/01/rdf-schema#Literal> "M" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N186c252f84044832a94d2dc4d7e0202d .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "ConductingEquipment"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://www.w3.org/2000/01/rdf-schema#comment> "The tap changer associated with the tap step state."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N861a548b7e9d41019f578387fad68cf2 .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_DC> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://www.w3.org/2000/01/rdf-schema#comment> "Extinction angle. CSC state variable, result from power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+_:N7fa605906d6c4321a7808f38b47f5140 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/2013/61970-456/StateVariables/4" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://www.w3.org/2000/01/rdf-schema#comment> "DC side of the voltage source converter (VSC)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M> <http://www.w3.org/2000/01/rdf-schema#label> "M"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile URI defined by ENTSO-E and used in the Model Exchange header.  It uniquely identifies the Profile and its version. The last two elements in the URI (http://entsoe.eu/CIM/StateVariables/yy/zzz) indicate major and minor versions where:  - yy - indicates a major version; - zzz - indicates a minor version. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:Nfd0dd67dae9e40dd93bb888e13450886 <http://www.w3.org/2000/01/rdf-schema#Literal> "deg" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.n> <http://www.w3.org/2000/01/rdf-schema#comment> "Nano 10**-9."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#label> "AngleRefTopologicalNode"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#comment> "A topological node belongs to a topological island."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.F> <http://www.w3.org/2000/01/rdf-schema#label> "F"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N9a08ab86824149608ef7bb40bda28e3f .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N262b9df7fe6b42208ed859b13a0d5e95 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://www.w3.org/2000/01/rdf-schema#comment> "The tap step state associated with the tap changer."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nedc981251f434df1b43c67fa29ade758 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..n> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VA> <http://www.w3.org/2000/01/rdf-schema#comment> "Apparent power in volt ampere."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator> <http://www.w3.org/2000/01/rdf-schema#comment> "A shunt capacitor or reactor or switchable bank of shunt capacitors or reactors. A section of a shunt compensator is an individual capacitor or reactor.  A negative value for reactivePerSection indicates that the compensator is a reactor. ShuntCompensator is a single terminal device.  Ground is implied."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nf40046d58ef44ca299cbbbb17f741a32 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://www.w3.org/2000/01/rdf-schema#comment> "The active power flow. Load sign convention is used, i.e. positive sign means flow out from a TopologicalNode (bus) into the conducting equipment."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VArh> <http://www.w3.org/2000/01/rdf-schema#label> "VArh"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "State variable for power flow. Load convention is used for flow direction. This means flow out from the TopologicalNode into the equipment is positive."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.d> <http://www.w3.org/2000/01/rdf-schema#label> "d"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.micro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k> <http://www.w3.org/2000/01/rdf-schema#label> "k"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#enumeration> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A> <http://www.w3.org/2000/01/rdf-schema#label> "A"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> <http://www.w3.org/2000/01/rdf-schema#comment> "Product of RMS value of the voltage and the RMS value of the in-phase component of the current."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.none> <http://www.w3.org/2000/01/rdf-schema#label> "none"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> <http://www.w3.org/2000/01/rdf-schema#label> "AngleDegrees"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m> <http://www.w3.org/2000/01/rdf-schema#label> "m"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "ConductingEquipment"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://www.w3.org/2000/01/rdf-schema#comment> "Filter bus voltage. Converter state variable, result from power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N3cccbce7b1ce4716abaf73f3eca4ab22 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#comment> "An electrically connected subset of the network. Topological islands can change as the current network state changes: e.g. due to  - disconnect switches or breakers change state in a SCADA/EMS - manual creation, change or deletion of topological nodes in a planning tool."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://www.w3.org/2000/01/rdf-schema#comment> "Firing angle, typical value between 10 and 18 degrees for a rectifier. CSC state variable, result from power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_DC> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://www.w3.org/2000/01/rdf-schema#label> "Float"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N6c04fca5c9414cfeb08dce3cd4709dc8 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.G> <http://www.w3.org/2000/01/rdf-schema#comment> "Giga 10**9."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> "The parts of the AC power system that are designed to carry current or that are conductively connected through terminals."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VA> <http://www.w3.org/2000/01/rdf-schema#label> "VA"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariablesProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "This profile has been built on the basis of the IEC 61970-456 document and adjusted to fit the purpose of the ENTSO-E CGMES."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://www.w3.org/2000/01/rdf-schema#comment> "The active power injected into the bus in addition to injections from equipment terminals.  Positive sign means injection into the TopologicalNode (bus)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_DC> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> <http://www.w3.org/2000/01/rdf-schema#comment> "State variable for transformer tap step.     This class is to be used for taps of LTC (load tap changing) transformers, not fixed tap transformers."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://www.w3.org/2000/01/rdf-schema#comment> "The reactive power injected into the bus in addition to injections from equipment terminals. Positive sign means injection into the TopologicalNode (bus)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Hz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Topology> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#label> "DCTopologicalNodes"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "multiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m2> <http://www.w3.org/2000/01/rdf-schema#comment> "Area in square meters."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAh> <http://www.w3.org/2000/01/rdf-schema#comment> "Apparent energy in volt ampere hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+_:N4aa1b6e117e1423f99fbe20b9fd4ec57 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/61970-552/ModelDescription/1#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.m> <http://www.w3.org/2000/01/rdf-schema#label> "m"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit multipliers defined for the CIM."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:N63331923d602451f969873758f847505 <http://www.w3.org/2000/01/rdf-schema#Literal> "k" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The status state variable associated with this conducting equipment."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m3> <http://www.w3.org/2000/01/rdf-schema#label> "m3"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> <http://www.w3.org/2000/01/rdf-schema#comment> "The SvInjection is reporting the calculated bus injection minus the sum of the terminal flows. The terminal flow is positive out from the bus (load sign convention) and bus injection has positive flow into the bus. SvInjection may have the remainder after state estimation or slack after power flow calculation."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal> <http://www.w3.org/2000/01/rdf-schema#comment> "An electrical connection point (AC or DC) to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.m> <http://www.w3.org/2000/01/rdf-schema#comment> "Milli 10**-3."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> <http://www.w3.org/2000/01/rdf-schema#comment> "State variable for voltage."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N63331923d602451f969873758f847505 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none> <http://www.w3.org/2000/01/rdf-schema#label> "none"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.N> <http://www.w3.org/2000/01/rdf-schema#comment> "Force in newton."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "SvVoltage"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> <http://www.w3.org/2000/01/rdf-schema#label> "ACDCConverter"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#comment> "The injection flows state variables associated with the topological node."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "multiplier"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://www.w3.org/2000/01/rdf-schema#label> "SvTapStep"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.G> <http://www.w3.org/2000/01/rdf-schema#label> "G"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Difference model URI defined by IEC 61970-552. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:N8c52c4f231a84dbca74cba3eb42fd39f <http://www.w3.org/2000/01/rdf-schema#Literal> "iec61970cim16v28_iec61968cim12v08_iec62325cim03v01a" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nd0a614143d7045ee8455d04f6eab107d .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal> <http://www.w3.org/2000/01/rdf-schema#label> "ACDCTerminal"@en .
+_:N058c75f8502f4fa38bd08e48067e3a44 <http://www.w3.org/2000/01/rdf-schema#Literal> "W" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VArh> <http://www.w3.org/2000/01/rdf-schema#comment> "Reactive energy in volt ampere reactive hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr> <http://www.w3.org/2000/01/rdf-schema#label> "VAr"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version details."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.micro> <http://www.w3.org/2000/01/rdf-schema#label> "micro"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k> <http://www.w3.org/2000/01/rdf-schema#comment> "Kilo 10**3."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.deg> <http://www.w3.org/2000/01/rdf-schema#comment> "Plane angle in degrees."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile creation date Form is YYYY-MM-DD for example for January 5, 2009 it is 2009-01-05."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.degC> <http://www.w3.org/2000/01/rdf-schema#label> "degC"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.p> <http://www.w3.org/2000/01/rdf-schema#label> "p"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Pa> <http://www.w3.org/2000/01/rdf-schema#comment> "Pressure in pascal (n/m2)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.d> <http://www.w3.org/2000/01/rdf-schema#comment> "Deci 10**-1."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://www.w3.org/2000/01/rdf-schema#comment> "Converter DC current, also called Id. Converter state variable, result from power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.h> <http://www.w3.org/2000/01/rdf-schema#label> "h"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh> <http://www.w3.org/2000/01/rdf-schema#comment> "Real energy in what hours."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://www.w3.org/2000/01/rdf-schema#label> "p"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Entsoe" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://www.w3.org/2000/01/rdf-schema#label> "uc"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariablesProfile> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.degC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection> <http://www.w3.org/2000/01/rdf-schema#label> "SvInjection"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> <http://www.w3.org/2000/01/rdf-schema#label> "StateVariablesVersion"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://www.w3.org/2000/01/rdf-schema#comment> "The topological node associated with the flow injection state variable."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.degC> <http://www.w3.org/2000/01/rdf-schema#comment> "Relative temperature in degrees Celsius. In the SI unit system the symbol is \u00BAC. Electric charge is measured in coulomb that has the unit symbol C. To distinguish degree Celsius form coulomb the symbol used in the UML is degC. Reason for not using \u00BAC is the special character \u00BA is difficult to manage in software."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#label> "TopologicalNode"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://www.w3.org/2000/01/rdf-schema#label> "entsoeUML"@en .
+_:N262b9df7fe6b42208ed859b13a0d5e95 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/2013/CIM-schema-cim16#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> <http://www.w3.org/2000/01/rdf-schema#label> "SvPowerFlow"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.micro> <http://www.w3.org/2000/01/rdf-schema#comment> "Micro 10**-6."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The units defined for usage in the CIM."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> "The conducting equipment associated with the status state variable."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#enumeration> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+_:N3cccbce7b1ce4716abaf73f3eca4ab22 <http://www.w3.org/2000/01/rdf-schema#Literal> "VAr" .
+_:Nedc981251f434df1b43c67fa29ade758 <http://www.w3.org/2000/01/rdf-schema#Literal> "2014-08-07" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W> <http://www.w3.org/2000/01/rdf-schema#comment> "Active power in watt."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://www.w3.org/2000/01/rdf-schema#label> "SvStatus"@en .
+_:N7ffdbce2a09b4a398038b91bd5b695fe <http://www.w3.org/2000/01/rdf-schema#Literal> "none" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> <http://www.w3.org/2000/01/rdf-schema#label> "SvStatus"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.J> <http://www.w3.org/2000/01/rdf-schema#comment> "Energy in joule."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://www.w3.org/2000/01/rdf-schema#label> "SvPowerFlow"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.min> <http://www.w3.org/2000/01/rdf-schema#label> "min"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Description" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.g> <http://www.w3.org/2000/01/rdf-schema#comment> "Mass in gram."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://www.w3.org/2000/01/rdf-schema#label> "baseUML"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://www.w3.org/2000/01/rdf-schema#comment> "CIM UML namespace. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#label> "TopologicalIsland"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://www.w3.org/2000/01/rdf-schema#comment> "Base UML provided by CIM model manager."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.N> <http://www.w3.org/2000/01/rdf-schema#label> "N"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://www.w3.org/2000/01/rdf-schema#label> "date"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.ohm> <http://www.w3.org/2000/01/rdf-schema#label> "ohm"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#comment> "For a detailed substation model a topological node is a set of connectivity nodes that, in the current network state, are connected together through any type of closed switches, including  jumpers. Topological nodes change as the current network state changes (i.e., switches, breakers, etc. change state). For a planning model, switch statuses are not used to form topological nodes. Instead they are manually created or deleted in a model builder tool. Topological nodes maintained this way are also called &quot;busses&quot;."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N022b011629c54bf3bca1b780062e3b90 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://www.w3.org/2000/01/rdf-schema#comment> "The floating point tap position.   This is not the tap ratio, but rather the tap step position as defined by the related tap changer model and normally is constrained to be within the range of minimum and maximum tap positions."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:N186c252f84044832a94d2dc4d7e0202d <http://www.w3.org/2000/01/rdf-schema#Literal> "SV" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://www.w3.org/2000/01/rdf-schema#label> "IdentifiedObject"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#comment> "A topological node belongs to a topological island."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> <http://www.w3.org/2000/01/rdf-schema#label> "CurrentFlow"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://www.w3.org/2000/01/rdf-schema#label> "poleLossP"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://www.w3.org/2000/01/rdf-schema#label> "SvInjection"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#label> "TopologicalIsland"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://www.w3.org/2000/01/rdf-schema#label> "qInjection"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N058c75f8502f4fa38bd08e48067e3a44 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical current with sign convention: positive flow is out of the conducting equipment into the connectivity node. Can be both AC and DC."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://www.w3.org/2000/01/rdf-schema#comment> "The active power loss at a DC Pole  = idleLoss + switchingLoss*|Idc| + resitiveLoss*Idc^2 For lossless operation Pdc=Pac For rectifier operation with losses Pdc=Pac-lossP For inverter operation with losses Pdc=Pac+lossP Converter state variable used in power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#comment> "DC bus."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger> <http://www.w3.org/2000/01/rdf-schema#comment> "Mechanism for changing transformer winding tap positions."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal> <http://www.w3.org/2000/01/rdf-schema#comment> "An AC electrical connection point to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical voltage, can be both AC and DC."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Model Description URI defined by IEC 61970-552. "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N7ffdbce2a09b4a398038b91bd5b695fe .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> <http://www.w3.org/2000/01/rdf-schema#label> "ActivePower"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "multiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.s> <http://www.w3.org/2000/01/rdf-schema#comment> "Time in seconds."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m2> <http://www.w3.org/2000/01/rdf-schema#label> "m2"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nfb0007d5a88e41d58c70a12918ca0ab9 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://www.w3.org/2000/01/rdf-schema#comment> "UML provided by ENTSO-E."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Pa> <http://www.w3.org/2000/01/rdf-schema#label> "Pa"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://www.w3.org/2000/01/rdf-schema#label> "alpha"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://www.w3.org/2000/01/rdf-schema#label> "sections"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#comment> "The angle reference for the island.   Normally there is one TopologicalNode that is selected as the angle reference for each island.   Other reference schemes exist, so the association is typically optional."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.min> <http://www.w3.org/2000/01/rdf-schema#comment> "Time in minutes."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.ohm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name is any free human readable and possibly non unique text naming the object."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> <http://www.w3.org/2000/01/rdf-schema#label> "Voltage"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://www.w3.org/2000/01/rdf-schema#comment> "The state for the number of shunt compensator sections in service."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> <http://www.w3.org/2000/01/rdf-schema#label> "UnitSymbol"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Profile URI used in the Model Exchange header and defined in IEC standards.  It uniquely identifies the Profile and its version. It is given for information only and to identify the closest IEC profile to which this CGMES profile is based on."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#comment> "The state voltage associated with the topological node."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAh> <http://www.w3.org/2000/01/rdf-schema#label> "VAh"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of angle in degrees."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of sections in service as a continous variable. To get integer value scale with ShuntCompensator.bPerSection."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.s> <http://www.w3.org/2000/01/rdf-schema#label> "s"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_DC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://www.w3.org/2000/01/rdf-schema#comment> "Converter voltage at the DC side, also called Ud. Converter state variable, result from power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://www.w3.org/2000/01/rdf-schema#label> "udc"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "multiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.rad> <http://www.w3.org/2000/01/rdf-schema#comment> "Plane angle in radians."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Date> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:Nfd0dd67dae9e40dd93bb888e13450886 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://www.w3.org/2000/01/rdf-schema#comment> "The reactive power flow. Load sign convention is used, i.e. positive sign means flow out from a TopologicalNode (bus) into the conducting equipment."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Hz> <http://www.w3.org/2000/01/rdf-schema#label> "Hz"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.SvTapStep> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.deg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://www.w3.org/2000/01/rdf-schema#label> "CsConverter"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariablesProfile> <http://www.w3.org/2000/01/rdf-schema#label> "StateVariablesProfile"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.AngleRefTopologicalNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Core> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://www.w3.org/2000/01/rdf-schema#label> "angle"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#label> "AngleRefTopologicalIsland"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://www.w3.org/2000/01/rdf-schema#label> "namespaceUML"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> <http://www.w3.org/2000/01/rdf-schema#label> "ReactivePower"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "Primitive" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://www.w3.org/2000/01/rdf-schema#label> "Boolean"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvVoltage> <http://www.w3.org/2000/01/rdf-schema#comment> "The topological node associated with the voltage state."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://www.w3.org/2000/01/rdf-schema#label> "VsConverter"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#comment> "The island for which the node is an angle reference.   Normally there is one angle reference node for each island."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.ConductingEquipment> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VArh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> <http://www.w3.org/2000/01/rdf-schema#label> "UnitMultiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://www.w3.org/2000/01/rdf-schema#label> "differenceModelURI"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/2000/01/rdf-schema#comment> "Master resource identifier issued by a model authority. The mRID is globally unique within an exchange context. Global uniqueness is easily achieved by using a UUID,  as specified in RFC 4122, for the mRID.  The use of UUID is strongly recommended. For CIMXML data files in RDF syntax conforming to IEC 61970-552 Edition 1, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://www.w3.org/2000/01/rdf-schema#label> "idc"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Date> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.T> <http://www.w3.org/2000/01/rdf-schema#label> "T"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> <http://www.w3.org/2000/01/rdf-schema#label> "multiplier"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.position> <http://www.w3.org/2000/01/rdf-schema#label> "position"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Pa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..n> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://www.w3.org/2000/01/rdf-schema#comment> "Angle between uf and uc. Converter state variable used in power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.S> <http://www.w3.org/2000/01/rdf-schema#label> "S"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.modelDescriptionURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N4aa1b6e117e1423f99fbe20b9fd4ec57 .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> <http://www.w3.org/2000/01/rdf-schema#comment> "State variable for the number of sections in service for a shunt compensator."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N8960d82d2c0d483fa2ab3161c866f26d .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.delta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceRDF> <http://www.w3.org/2000/01/rdf-schema#label> "namespaceRDF"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://www.w3.org/2000/01/rdf-schema#label> "TopologicalNode"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.H> <http://www.w3.org/2000/01/rdf-schema#label> "H"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> <http://www.w3.org/2000/01/rdf-schema#label> "SvTapStep"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://www.w3.org/2000/01/rdf-schema#comment> "The shunt compensator for which the state applies."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.alpha> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.deg> <http://www.w3.org/2000/01/rdf-schema#label> "deg"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.uc> <http://www.w3.org/2000/01/rdf-schema#comment> "Converter voltage, the voltage at the AC side of the bridge. Converter state variable, result from power flow."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://www.w3.org/2000/01/rdf-schema#label> "SvShuntCompensatorSections"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Topology> <http://www.w3.org/2000/01/rdf-schema#label> "Topology"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://www.w3.org/2000/01/rdf-schema#comment> "The in service status as a result of topology processing."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment.SvStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Topology> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://www.w3.org/2000/01/rdf-schema#label> "baseURI"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.rad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "A type with the value space &quot;true&quot; and &quot;false&quot;."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode> <http://www.w3.org/2000/01/rdf-schema#label> "DCTopologicalNode"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.M> <http://www.w3.org/2000/01/rdf-schema#comment> "Mega 10**6."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#label> "DCTopologicalIsland"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.SvInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.entsoeUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariablesProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory> .
+_:Nd0a614143d7045ee8455d04f6eab107d <http://www.w3.org/2000/01/rdf-schema#Literal> "V" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.uf> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N8c52c4f231a84dbca74cba3eb42fd39f .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.VAr> <http://www.w3.org/2000/01/rdf-schema#comment> "Reactive power in volt ampere reactive."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_DC> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.TopologicalNode> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#label> "DCTopologicalIsland"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.ohm> <http://www.w3.org/2000/01/rdf-schema#comment> "Resistance in ohm."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_StateVariables> <http://www.w3.org/2000/01/rdf-schema#label> "StateVariables"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "State variable for status."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m> <http://www.w3.org/2000/01/rdf-schema#comment> "Length in meter."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://www.w3.org/2000/01/rdf-schema#label> "q"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.SvPowerFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "The power flow state variable associated with the terminal."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://www.w3.org/2000/01/rdf-schema#label> "ShuntCompensator"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#concrete> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.m3> <http://www.w3.org/2000/01/rdf-schema#comment> "Volume in cubic meters."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.J> <http://www.w3.org/2000/01/rdf-schema#label> "J"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Hz> <http://www.w3.org/2000/01/rdf-schema#comment> "Frequency in hertz."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.Terminal> <http://www.w3.org/2000/01/rdf-schema#comment> "The terminal associated with the power flow state variable."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalNode.DCTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://www.w3.org/2000/01/rdf-schema#label> "v"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "Yes" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland.DCTopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#String> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:N861a548b7e9d41019f578387fad68cf2 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.gamma> <http://www.w3.org/2000/01/rdf-schema#label> "gamma"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:Nfb0007d5a88e41d58c70a12918ca0ab9 <http://www.w3.org/2000/01/rdf-schema#Literal> "http://iec.ch/TC57/61970-552/DifferenceModel/1#" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.n> <http://www.w3.org/2000/01/rdf-schema#label> "n"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.none> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.pInjection> <http://www.w3.org/2000/01/rdf-schema#label> "pInjection"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.sections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://www.w3.org/2000/01/rdf-schema#comment> "The short name of the profile used in profile documentation."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvStatus.inService> <http://www.w3.org/2000/01/rdf-schema#label> "inService"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#String> <http://www.w3.org/2000/01/rdf-schema#label> "String"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> "CIMDatatype" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.differenceModelURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.shortName> <http://www.w3.org/2000/01/rdf-schema#label> "shortName"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Float> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#belongsToCategory> <http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Domain> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvInjection.qInjection> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#isFixed> _:N7fa605906d6c4321a7808f38b47f5140 .
+_:N022b011629c54bf3bca1b780062e3b90 <http://www.w3.org/2000/01/rdf-schema#Literal> "none" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> <http://www.w3.org/2000/01/rdf-schema#label> "Simple_Float"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.AngleRefTopologicalIsland> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#AssociationUsed> "No" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvVoltage.v> <http://www.w3.org/2000/01/rdf-schema#comment> "The voltage magnitude of the topological node."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.rad> <http://www.w3.org/2000/01/rdf-schema#label> "rad"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.SvShuntCompensatorSections> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#inverseRoleName> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvShuntCompensatorSections.ShuntCompensator> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvPowerFlow.q> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower> <http://www.w3.org/2000/01/rdf-schema#comment> "Product of RMS value of the voltage and the RMS value of the quadrature component of the current."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Package_Wires> <http://www.w3.org/2000/01/rdf-schema#label> "Wires"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.poleLossP> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.S> <http://www.w3.org/2000/01/rdf-schema#comment> "Conductance in siemens."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://www.w3.org/2000/01/rdf-schema#label> "TapChanger"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#stereotype> <http://iec.ch/TC57/NonStandard/UML#attribute> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.idc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter> .
+_:N6c04fca5c9414cfeb08dce3cd4709dc8 <http://www.w3.org/2000/01/rdf-schema#Literal> "A" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#SvTapStep.TapChanger> <http://www.w3.org/2000/01/rdf-schema#range> <http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalIsland.TopologicalNodes> <http://www.w3.org/2000/01/rdf-schema#label> "TopologicalNodes"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.T> <http://www.w3.org/2000/01/rdf-schema#comment> "Tera 10**12."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> <http://www.w3.org/2000/01/rdf-schema#label> "mRID"@en .
+_:N8960d82d2c0d483fa2ab3161c866f26d <http://www.w3.org/2000/01/rdf-schema#Literal> "M" .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#DCTopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#comment> "An electrically connected subset of the network. DC topological islands can change as the current network state changes: e.g. due to  - disconnect switches or breakers change state in a SCADA/EMS - manual creation, change or deletion of topological nodes in a planning tool."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode.TopologicalIsland> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#TopologicalNode> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger> <http://www.w3.org/2000/01/rdf-schema#label> "TapChanger"@en .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.W> <http://www.w3.org/2000/01/rdf-schema#label> "W"@en .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.namespaceUML> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://entsoe.eu/CIM/SchemaExtension/3/1#StateVariablesVersion.baseURI> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#multiplicity> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#dataType> <http://iec.ch/TC57/2013/CIM-schema-cim16#Float> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float> <http://www.w3.org/2000/01/rdf-schema#comment> "A floating point number. The range is unspecified and not limited."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> .

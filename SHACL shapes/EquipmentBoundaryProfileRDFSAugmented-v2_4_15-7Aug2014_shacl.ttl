@@ -1,0 +1,305 @@
+@base <http://iec.ch/TC57/2013/CIM-schema-cim16> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#> .
+@prefix cims: <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#> .
+@prefix entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#> .
+
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersionShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion>;				
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseUML> ;
+				sh:datatype xsd:string ;
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^iec61970cim16v28_iec61968cim12v08_iec62325cim03v01a$" ;
+			] ;		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.baseURI> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/61970-452/EquipmentBoundary/3$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.date> ;
+				sh:datatype xsd:date ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^2014-08-07$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.differenceModelURI> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/DifferenceModel/1#$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeUML> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^entsoe_v2.4.15$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIcore> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://entsoe.eu/CIM/EquipmentBoundary/3/1$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.entsoeURIoperation> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.modelDescriptionURI> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/ModelDescription/1#$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceRDF> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://www.w3.org/1999/02/22-rdf-syntax-ns#$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.namespaceUML> ;
+				sh:datatype xsd:string ;
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/CIM-schema-cim16#$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#EquipmentBoundaryVersion.shortName> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				sh:pattern "^EQ_BD$" ;				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#TerminalShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Terminal.ConductingEquipment> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#ConductingEquipment> ;
+				sh:maxCount 1 ;
+				sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode>;				
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> ;
+				sh:datatype xsd:boolean ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;					
+			] ;		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 2 ; 
+				sh:minLength 2 ; 
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 32 ; 
+			] ;		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 32 ; 
+			] ;		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 2 ; 
+				sh:minLength 2 ; 
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> ;
+				sh:datatype xsd:string ;	
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 32 ; 
+			] ;
+		
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 32 ; 
+			] ;
+		
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNode.ConnectivityNodeContainer> ;				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectivityNodeContainer> ;
+				sh:maxCount 1 ;
+				sh:minCount 1 ;			
+			] ;
+		 .
+
+		
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment>;			
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Equipment.EquipmentContainer> ;				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#EquipmentContainer> ;
+				sh:maxCount 1 ;			
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltageShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage>;				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#BaseVoltage.nominalVoltage> ;
+				sh:datatype xsd:float ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#VoltageShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage>;				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> ;
+				sh:datatype xsd:float ;				
+				sh:maxCount 1 ;			
+			] ;
+		
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> ;				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^V$" ;				
+			] ;
+		
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> ;				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^k$" ;				
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegionShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion>;
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion.Region> ;				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#GeographicalRegion> ;
+				sh:maxCount 1 ;
+				sh:minCount 1 ;			
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObjectShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject>;				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.description> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 256 ; 
+			] ;	
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;				
+				sh:maxLength 16 ; sh:minLength 16 ; 
+			] ;
+		
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;				
+			] ;		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 32 ; 
+			] ;		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> ;
+				sh:datatype xsd:string ;				
+				sh:maxCount 1 ;
+				sh:minCount 1 ;				
+				sh:maxLength 12 ; 
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#LineShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Line>;				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Line.Region> ;				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#SubGeographicalRegion> ;
+				sh:maxCount 1 ;			
+			] ;
+		 .
+
+		<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySourceShape>
+			a sh:NodeShape ;
+			sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource>;				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.EnergySchedulingType> ;				
+				sh:class <http://entsoe.eu/CIM/SchemaExtension/3/1#EnergySchedulingType> ;
+				sh:maxCount 1 ;				
+			] ;
+		 .
+
+		

@@ -1,0 +1,444 @@
+@base <http://iec.ch/TC57/2013/CIM-schema-cim16> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#> .
+@prefix cims: <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#> .
+@prefix entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#> .
+
+			<http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersionShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion>;
+				
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.baseUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^iec61970cim16v28_iec61968cim12v08_iec62325cim03v01a$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.baseURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/61970-453/DiagramLayout/3$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.date> ;
+				sh:datatype xsd:date ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^2014-08-07$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.differenceModelURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/DifferenceModel/1#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.entsoeUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^entsoe_v2.4.15$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.entsoeURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://entsoe.eu/CIM/DiagramLayout/3/1$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.modelDescriptionURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/ModelDescription/1#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.namespaceRDF> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://www.w3.org/1999/02/22-rdf-syntax-ns#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.namespaceUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/CIM-schema-cim16#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#DiagramLayoutVersion.shortName> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^DL$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram.DiagramStyle> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramStyle> ;
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram.orientation> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#OrientationKind> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram.x1InitialView> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram.x2InitialView> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram.y1InitialView> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram.y2InitialView> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_FloatShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject>;
+				
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.IdentifiedObject> ;				
+					sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject> ;
+					sh:maxCount 1 ;			
+				] ;
+				
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.Diagram> ;					
+					sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#Diagram> ;
+					sh:maxCount 1 ;
+					sh:minCount 1 ;						
+				] ;
+			
+
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.drawingOrder> ;
+					sh:datatype xsd:integer ;					
+					sh:maxCount 1 ;					
+				] ;
+		
+
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.isPolygon> ;
+					sh:datatype xsd:boolean ;
+					sh:maxCount 1 ;
+				] ;
+		
+
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.offsetX> ;
+					sh:datatype xsd:float ;					
+					sh:maxCount 1 ;				
+				] ;
+		
+
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.offsetY> ;
+					sh:datatype xsd:float ;					
+					sh:maxCount 1 ;
+				] ;
+			
+
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.rotation> ;
+					sh:datatype xsd:float ;					
+					sh:maxCount 1 ;					
+				] ;
+		
+				sh:property [
+					sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject.DiagramObjectStyle> ;					
+					sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectStyle> ;
+					sh:maxCount 1 ;					
+				] ;
+			 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegreesShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^deg$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPointShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint.DiagramObject> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint.DiagramObjectGluePoint> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectGluePoint> ;
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint.sequenceNumber> ;
+				sh:datatype xsd:integer ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint.xPosition> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint.yPosition> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObjectPoint.zPosition> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#VisibilityLayerShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#VisibilityLayer>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VisibilityLayer.VisibleObjects> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#DiagramObject> ;
+				
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VisibilityLayer.drawingOrder> ;
+				sh:datatype xsd:integer ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#TextDiagramObjectShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#TextDiagramObject>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#TextDiagramObject.text> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObjectShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				sh:maxLength 32 ; 
+			] ;
+		 .
+
+		

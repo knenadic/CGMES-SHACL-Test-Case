@@ -1,0 +1,1082 @@
+@base <http://iec.ch/TC57/2013/CIM-schema-cim16> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#> .
+@prefix cims: <http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#> .
+@prefix entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#> .
+
+			<http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersionShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion>;
+				
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.baseUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^iec61970cim16v28_iec61968cim12v08_iec62325cim03v01a$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.baseURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^ http://iec.ch/TC57/2013/61970-456/SteadyStateHypothesis/1$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.date> ;
+				sh:datatype xsd:date ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^2014-08-07$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.differenceModelURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/DifferenceModel/1#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.entsoeUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^entsoe_v2.4.15$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.entsoeURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://entsoe.eu/CIM/SteadyStateHypothesis/1/1$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.modelDescriptionURI> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/61970-552/ModelDescription/1#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.namespaceRDF> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://www.w3.org/1999/02/22-rdf-syntax-ns#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.namespaceUML> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^http://iec.ch/TC57/2013/CIM-schema-cim16#$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://entsoe.eu/CIM/SchemaExtension/3/1#SteadyStateHypothesisVersion.shortName> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				sh:pattern "^SSH$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminalShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCTerminal.connected> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObjectShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.mRID> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#IdentifiedObject.name> ;
+				sh:datatype xsd:string ;
+				
+				sh:maxCount 1 ;
+				
+				sh:maxLength 32 ; 
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ControlAreaShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ControlArea>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ControlArea.netInterchange> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ControlArea.pTolerance> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePowerShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^W$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ActivePower.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^M$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverterShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.p> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.q> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.targetPpcc> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.targetUdc> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePowerShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^VAr$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ReactivePower.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^M$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#VoltageShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^V$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Voltage.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^k$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverterShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.operatingMode> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#CsOperatingModeKind> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.pPccControl> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#CsPpccControlKind> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.targetAlpha> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.targetGamma> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CsConverter.targetIdc> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegreesShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^deg$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AngleDegrees.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlowShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^A$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#CurrentFlow.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverterShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.droop> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.droopCompensation> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.pPccControl> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#VsPpccControlKind> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.qPccControl> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#VsQpccControlKind> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.qShare> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.targetQpcc> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#VsConverter.targetUpcc> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#PUShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#PU>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#PU.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#PU.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#PU.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ResistanceShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Resistance>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Resistance.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Resistance.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^ohm$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Resistance.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#PerCentShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#PerCent>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#PerCent.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#PerCent.unit> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#PerCent.multiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+				sh:pattern "^none$" ;
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#EquivalentInjectionShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#EquivalentInjection>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EquivalentInjection.regulationStatus> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EquivalentInjection.regulationTarget> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EquivalentInjection.p> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EquivalentInjection.q> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#GeneratingUnitShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#GeneratingUnit>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#GeneratingUnit.normalPF> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_FloatShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Simple_Float.value> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#AsynchronousMachineShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#AsynchronousMachine>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#AsynchronousMachine.asynchronousMachineType> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#AsynchronousMachineKind> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergyConsumerShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergyConsumer>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergyConsumer.p> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergyConsumer.q> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySourceShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.activePower> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#EnergySource.reactivePower> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ExternalNetworkInjectionShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ExternalNetworkInjection>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ExternalNetworkInjection.referencePriority> ;
+				sh:datatype xsd:integer ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ExternalNetworkInjection.p> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ExternalNetworkInjection.q> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingCondEqShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingCondEq>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingCondEq.controlEnabled> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#RotatingMachineShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#RotatingMachine>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RotatingMachine.p> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RotatingMachine.q> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#StaticVarCompensatorShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#StaticVarCompensator>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#StaticVarCompensator.q> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#SwitchShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#Switch>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#Switch.open> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachine>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachine.operatingMode> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachine.referencePriority> ;
+				sh:datatype xsd:integer ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControl>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControl.discrete> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControl.enabled> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControl.targetDeadband> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControl.targetValue> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControl.targetValueUnitMultiplier> ;
+				
+				sh:class <http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier> ;
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensatorShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#ShuntCompensator.sections> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
+
+			<http://iec.ch/TC57/2013/CIM-schema-cim16#TapChangerShape>
+				a sh:NodeShape ;
+				sh:targetClass <http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger>;
+				
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.controlEnabled> ;
+				sh:datatype xsd:boolean ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		
+
+			sh:property [
+				sh:path <http://iec.ch/TC57/2013/CIM-schema-cim16#TapChanger.step> ;
+				sh:datatype xsd:float ;
+				
+				sh:maxCount 1 ;
+sh:minCount 1 ;
+				
+				
+			] ;
+		 .
+
+		
